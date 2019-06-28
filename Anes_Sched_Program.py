@@ -381,46 +381,7 @@ gen_menu.grid(row=3, column=1,sticky='W'+'E')
 anesT_menu = OptionMenu(root, anesT_var,"", "GEN", "MAC", "CHOICE","GEN + REGIONAL", "REGIONAL")
 anesT_menu.grid(row=4, column=1,sticky='W'+'E')
 
-anesN_menu = OptionMenu(root, anesN_var,"",'BALASUBRAMANIAN, RINA',
-'BERLINBERG, CRAIG',
-'BLOCK, STEVEN',
-'BOMMARITO, ANTHONY',
-'BRIONES, RICHARD',
-'CELLAR, JOHN',
-'CHOW, HARRISON',
-'CHUNG, LINDA',
-'CLARK, RICHARD',
-'CLARK, RODNEY',
-'DE LUNA', 'P. WHITNEY',
-'ENNEN, BILL',
-'FUNG, RANDOLPH',
-'HOLLEY, FREDERICK',
-'JAMIESON, MARK',
-'KAMALI, HENRY',
-'KELLY, NATE',
-'KENNEDY, PAUL',
-'KONOSKE, RYAN',
-'LAMPE, GEORGE',
-'LAW, NATHANIEL',
-'LEE, LEONARD',
-'LIN, ANTHONY',
-'LUCAS, SHAWN',
-'MACDONELL, GREG',
-'MEINTS, ROBERT',
-'MENDOZA, STEVE',
-"NOSE', PETER",
-'NYRHINEN, EVE',
-'PAIGE, MICHAEL',
-'PAK, JOHNATHAN',
-'PARK, CK',
-'PATEL, ROBIN',
-'ROBINSON, TRACY',
-'RONQUILLO, RICARDO',
-'SEIDEN, SAMUEL',
-'SHAMIM, SADIYA',
-'STRATMANN, GREG',
-'SUBERLAK, PATRICK',
-'YANG, AMOS')
+anesN_menu = OptionMenu(root, anesN_var,"")
 anesN_menu.grid(row=5, column=1,sticky='W'+'E')
 
 rnum_menu = OptionMenu(root, rnum_var, '1','2','3','4','5','6','7','8','9','10','11','12','ENDO 1','ENDO 2','PEDI 1','PEDI 2','MRAD','RADIO','CVS SS RM','CVS RM 1','CVS RM 2','CVS RM 3','CVS RM 4','')
